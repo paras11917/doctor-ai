@@ -1,0 +1,58 @@
+/* drop down menu */
+
+.drop-menu {
+    background-color: transparent;
+    width: 63%;
+    margin: 48px auto; /* this will center the div horizontally */
+  }
+  
+  .drop-menu p{
+    color:white;
+    text-align: start;
+    
+  }
+  .drop-menu select {
+    width: 100%;
+    height: 64px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid white;
+    font-family: 'Montserrat', sans-serif;
+    padding-right:8px;
+    margin:32px 0px;
+  }
+  .drop-menu select option {
+    height: 64px;
+    color: white;
+    background-color: #1a1042;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .img-box{
+    width: 100%;
+    height: 164px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid white;
+    margin:32px 0px;
+    display: flex;
+    cursor:pointer;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn{
+    width: 100%;
+    height: 54px;
+    color: #ffffff;
+    background-color: rgb(82, 161, 229);
+    border:2px solid rgb(82, 161, 229);
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    margin:32px 0px;
+  }
+  .btn:hover{
+    background-color: rgb(38, 113, 179);
+  }
+  

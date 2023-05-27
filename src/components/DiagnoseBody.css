@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+.diagnoseBody .body-image {
+  justify-content: center;
+  align-items: center;
+  height: 100vw;
+  position: relative;
+}
+
+.diagnoseBody .full-body {
+  opacity: 20%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+}
+
+.diagnoseBody .head {
+  opacity: 20%;
+  position: absolute;
+  top: -1%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 5%;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.diagnoseBody .lungs {
+  opacity: 20%;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 13%;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.diagnoseBody .head:hover {
+  opacity: 100%;
+}
+
+.diagnoseBody .lungs:hover {
+  opacity: 100%;
+}
